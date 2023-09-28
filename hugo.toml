@@ -1,0 +1,68 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Persnickety Craftworks'
+theme = 'paige'
+
+[[module.imports]]
+path = "paige"
+
+[languages.en]
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "Poker Tables"
+name = "Poker Tables"
+url = "/Poker Tables/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "life"
+name = "Life"
+parent = "blog"
+url = "/blog/life/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "work"
+name = "Work"
+parent = "blog"
+url = "/blog/work/"
+weight = 20
+
+[languages.en.menu.main.params.paige]
+divider_below = true
+
+[[languages.en.menu.main]]
+identifier = "interests"
+name = "Interests"
+parent = "blog"
+url = "/blog/interests/"
+weight = 30
+
+[languages.en.menu.main.params.paige]
+disabled = true
+
+[[languages.en.menu.main]]
+identifier = "Crokinole"
+name = "Crokinole"
+url = "/Crokinole/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[paige]
+color = "#0d6efd" # Bootstrap primary color and theme color for Safari and Windows
+external_link_new_tab = false # Open external links in new tabs
+math = false # Enable math typesetting
+style = "" # CSS included at the end of the stylesheet, before style-last.css
+
