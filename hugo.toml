@@ -3,9 +3,6 @@ languageCode = 'en-us'
 title = 'Persnickety Craftworks'
 theme = 'paige'
 
-[[module.imports]]
-path = "paige"
-
 [languages.en]
 weight = 10
 
@@ -66,3 +63,5 @@ external_link_new_tab = false # Open external links in new tabs
 math = false # Enable math typesetting
 style = "" # CSS included at the end of the stylesheet, before style-last.css
 
+[[module.imports]]
+path = "github.com/willfaught/paige"
